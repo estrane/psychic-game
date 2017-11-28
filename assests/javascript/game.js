@@ -54,14 +54,14 @@ var reset = function() {
     if (userGuess == letterToGuess){
         wins++;
         document.querySelector('#wins').innerHTML = "Wins: " + wins;
-        alert("Nice work! You guessed correctly!");
+        alert("Nice work! You guessed the letter correctly!");
         reset();
     }
 }else if(guessesLeft == 0){
     // Then we will loss and we'll update the html to display the loss 
     losses++;
     document.querySelector('#losses').innerHTML = "Losses: " + losses;
-    alert("Sorry, you failed to guess the computer's letter.");
+    alert("Sorry, you didn't guess the computer's letter.");
     // Then we'll call the reset. 
     reset();
 }
