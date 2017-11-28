@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(106, 193, 219);
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 40px;
+    color: goldenrod;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(194, 72, 188);
+}
+
+.list-group-item {
+    background-color: rgb(82, 156, 134);
+    color: rgb(39, 39, 39);
+}
+
+h4 {
+    color: black;
+}
